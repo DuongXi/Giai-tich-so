@@ -31,12 +31,18 @@ def swap(matrix,j):
             matrix[i] = matrix[j]
             matrix[j] = tmp
         return
+def addIdentityMat(matrix):
+    #Thực hiện khi đề bài cho dạng (A+aI)X=b
+    a = float(input("Hệ số ma trận đơn vị "))
+    I = np.eye(len(matrix))
+    matrix[0:len(matrix),0:len(matrix)] = matrix[0:len(matrix),0:len(matrix)]  + a*I
 
 #main-----------------------------------------------------------------------
 file = open('data.txt', 'r')
 matrix = np.loadtxt("data.txt")
 file.close()
 kq = []
+# addIdentityMat(matrix)
 gaussThuan(matrix)
 gaussNghich(matrix)
 kq.reverse()
