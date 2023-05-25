@@ -62,4 +62,3 @@ if isDiagonallyDominant(matrix):
     config(matrix,eps)
 else:
     print("Ma trận không chéo trội nên hãy dùng phương pháp ngoài cái này nhé !!")
-print(sum(matrix[1,0:3]) - matrix[1,1])
