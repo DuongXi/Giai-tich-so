@@ -38,7 +38,7 @@ def config(matrix,eps):
     Lapdon(b,d,eps)
     
 def isDiagonallyDominant(matrix):
-    #Kiểm tra chéo trội hay không
+    #Kiểm tra ma trận A hoặc (A+aI) chéo trội hay không
     check=0
     s = len(matrix)
     for i in range (0,s):
