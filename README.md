@@ -1,5 +1,5 @@
 # Nội dung
-Một số phương pháp giải Hệ Phương Trình tuyến tính AX=b tính đúng và gần đúng
+Một số phương pháp giải phương trình, hệ phương trình tuyến tính AX=b, tìm ma trận nghịch đảo, giá trị riêng, vector riêng
 
 # Yêu cầu trước khi dùng
 
